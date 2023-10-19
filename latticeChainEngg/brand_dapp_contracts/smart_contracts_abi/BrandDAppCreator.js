@@ -1,0 +1,4 @@
+_creatorTokenAddress = /* var of type address here */ ;
+var _creatorTokenAmount = /* var of type uint256 here */ ;
+var branddappcreatorContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"kill","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_businessName","type":"string"},{"name":"_businessEmail","type":"string"},{"name":"_ipfsHash","type":"string"},{"name":"_ipdbHash","type":"string"},{"name":"_tokenAddress","type":"address"}],"name":"createNewMarketPlace","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"_creatorTokenAddress","type":"address"},{"name":"_creatorTokenAmount","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+
