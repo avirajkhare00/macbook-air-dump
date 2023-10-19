@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            Config Page
+        </title>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="heading">
+                <p class="text-center"><h2>Dashboard</h2></p>
+                Team id: {{team_details.teamId}}<br />
+                Name: {{team_details.firstName}}
+            </div>
+            <div class="text-body">
+                <p class="text-justify">
+                    Please select your page to send chatbox there.
+                </p>
+            </div>
+            <div class="form">
+                <form method="get" action="">
+                    <input type="hidden" name="teamId" value="{{team_details.teamId}}">
+                    <div class="form-group">
+                        <label for="sel1">Select page:</label>
+                        <select class="form-control" name="selectedPage">
+                            {% for channel_details in channels %}
+                                <option value="{{channel_details.id}}">{{channel_details.name}}</option>
+                            {% endfor %}
+                            </select>
+                        <button class="btn btn-success" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
