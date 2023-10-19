@@ -1,0 +1,19 @@
+1547838402418	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/04/f6d8vwns4sj5sb2m0pz9pjhc0000gn/T/rust_mozprofile.BAmhp5Ha76FU"
+1547838403891	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547838403891	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1547838407264	Marionette	INFO	Listening on port 53720
+1547838407335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.licdn.com/sc/h/br/a5g054pxq44snssh9zd6o3yyk, line 5969: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+JavaScript error: https://static.licdn.com/sc/h/br/a5g054pxq44snssh9zd6o3yyk, line 4066: Error: {"readyState":0,"status":0,"statusText":"error"}
+JavaScript warning: https://static.licdn.com/sc/h/br/a5g054pxq44snssh9zd6o3yyk, line 5969: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/br/a5g054pxq44snssh9zd6o3yyk, line 5969: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/br/a5g054pxq44snssh9zd6o3yyk, line 5969: unreachable code after return statement
